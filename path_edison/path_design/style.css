@@ -1,0 +1,333 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: rgb(31, 31, 31);
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+  
+
+  
+  nav {
+    display: flex;
+    align-items: center;
+    height: 50px; /* Navigationsbar größe ändern */
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  section h2 {
+    color: green;
+    margin-top: 50px;
+    text-align: center;
+    margin: -100;
+    padding-top: -100;
+  }
+  
+  section p {
+    margin: 25px;
+    text-align: center;
+  }
+  section {
+    border: 2px solid green;
+    padding: 25px;
+    margin: 25px;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  section {
+    border: 2px solid green;
+    padding: 25px;
+    margin: 25px auto;
+    max-width: 800px;
+    padding: 5px;
+    
+  }
+  nav {
+    border-bottom: 4px solid green;
+  }
+  #logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  #logo {
+    height: 40px; /* Logo größe änderen */
+    margin-right: auto; /* logo verschieben rechts links */
+    margin-top: -10px; /* logo verschieben oben unten */
+  }
+  h1 {
+    font-family: "Comic Sans MS", cursive, sans-serif; /* Schriftart ändern */
+  }
+  h2 {
+    margin: 100;
+  }
+  h2 {
+    padding-top: -10;
+ }
+ h2 p {
+  color: rgba(0, 0, 0, 0.897);
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+}
+#frame {
+  margin: 10px 0px 0px 0px;
+}
+#services-image {
+  margin-left: 42px;
+}
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+
+  input[type="text"], textarea {
+    padding: 5px;
+    font-size: 16px;
+    width: 200px;
+  }
+
+  label {
+    margin-bottom: 5px;
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+  }
+  
+  .form-input {
+    padding: 0.5em;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid gray;
+  }
+  
+  .form-submit {
+    padding: 0.5em 1em;
+    background-color: blue;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+  }
+  #name {
+    width: 150px;
+  }
+  
+  #email {
+    width: 150px;
+  }
+  
+  #number {
+    width: 150px;
+  }
+  
+  #message {
+    width: 98%;
+    height: 180px;
+    resize: none;
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: none;
+    height: 150px;
+}
+input[type="submit"] {
+  background-color: green;
+}
+div {
+  text-align: center;
+}
+#barzahlung-logo {
+  width: 150px; 
+  height: auto; 
+}
+#kartenzahlung-logo {
+  width: 150px; 
+  height: auto; 
+}
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 10px;
+
+}
+.opening-hours-table {
+  margin: 0 auto;
+  text-align: left;
+  width: 50%;
+}
+h2 {
+  font-family: 'Niconne', cursive;
+  font-size: 45px; /* Überschriften Schriftgröße ändern */
+}
+table {
+  padding-bottom: 30px;
+}
+section {
+  padding-bottom: 30px;
+}
+footer {
+  background-color: rgb(31, 31, 31);
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: rgb(31, 31, 31);
+  }
+  
+  p {
+  color: rgb(0, 0, 0);
+  margin: 0;
+  }
+  footer p {
+    position: relative;
+    top: 10px; /* das legt den Abstand nach unten fest */
+    font-size: 20px; /* das legt die Schriftgröße fest */
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  .footer {
+    color: white; /* Schriftfarbe des Footers */
+  }
+  
+  .navigation a {
+    text-decoration: underline;
+  }
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(31, 31, 31);
+    height: 60px;
+    z-index: 999;
+  }
+  .uhrzeit {
+    padding-left: 150px;
+    color: rgb(0, 128, 0)
+  }
+  td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .fett {
+    font-weight: bold;
+  }
+  td {
+    background-color: rgb(236, 230, 230);
+    padding: 10px;
+  }
+  table {
+    border-spacing: 0;
+  }
+  .welcome-section {
+    text-align: center;
+    padding: 100px;
+  }
+  
+  .welcome-header {
+    font-size: 80px;
+    margin-bottom: 15px;
+  }
+  
+  .header-name {
+    font-size: 100px;
+    margin-bottom: 20px;
+    color: green;
+  }
+  
+  
+  .rahmen {
+    margin-top: 5px;
+    border: 2px solid black;
+    }
+    
+  
+  .welcome-text {
+    font-size: 17px;
+    justify-content: center;
+    font-weight: bold;
+    background-color: #f8f2f2;
+    margin-left: 80px;
+    padding: 20px;
+    width: 600px;
+    
+  }
+  #standort-bild {
+    padding-left: 170px;
+    font-weight: bold;
+  }
+  #fett {
+   font-weight: bold;
+  }
+  .inner-div {
+    border: 2px solid green;
+    max-width: 800px;
+    margin: 25px auto;
+    padding-bottom: 60px;
+    padding-top: 20px;
+  }
+  
